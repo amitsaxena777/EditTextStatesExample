@@ -1,0 +1,30 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--For Focused State Color-->
+    <item
+        android:state_focused="true">
+        <shape android:padding="4dp" android:shape="rectangle">
+            <solid android:color="#FFFFFF" />
+            <stroke android:width="2dp" android:color="#00bfff" />
+
+        </shape>
+    </item>
+
+    <!--For Pressed State Color-->
+
+    <item android:state_pressed="true"
+       >
+        <shape android:padding="5dp"
+            android:shape="rectangle">
+            <solid android:color="#FFFFFF" />
+            <stroke android:width="2dp" android:color="#ff0000"/>
+        </shape>
+    </item>
+    <!--Default-->
+    <item >
+        <shape android:padding="5dp"
+            android:shape="rectangle">
+            <solid android:color="#FFFFFF" />
+
+        </shape>
+    </item>
+    </selector>
